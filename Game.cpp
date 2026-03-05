@@ -28,8 +28,11 @@ void initialize_game() {
         //calling initialize game again restarts the query to start the game.
         initialize_game();
         }
+    
     }
+
 }
+
 
 void YouDied() {
         std::cout << "GAME OVER. You died. Skill Issue. Git Gud." << std::endl;
@@ -45,6 +48,7 @@ void YouDied() {
         }
 }
 
+
 int main() {
     //Start button for the game function
     initialize_game();
@@ -53,6 +57,8 @@ int main() {
     get_random_foe();
     room_one();
     //This is where the battle system will be
+
+
 }
 
 
