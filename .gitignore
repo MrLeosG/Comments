@@ -1,1 +1,14 @@
-*\n# Git ignore rules\n.DS_Store\n*.log\n*.tmp\nnode_modules/\n
+# Created by .gitignore for Lab-Game-Project-Aidan-Alex
+# Ignore the following files
+.DS_Store
+*.o
+*.exe
+*.out
+*.log
+*.class
+*.class
+*.jar
+*.dll
+*.so
+*.dSYM
+*.sublime-*
