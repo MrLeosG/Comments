@@ -1,13 +1,16 @@
-#ifndef HITPOINTS_H
-#define HITPOINTS_H
+#pragma once
 
-class Hitpoints {
-public:
-    Hitpoints(int initial);
-    void takeDamage(int amount);
-    int getCurrent() const;
-private:
-    int currentHitpoints;
-};
+//Health pool that will be altered based on enemy/type
+int enemy_health = 10;
+constexpr int max_hp = 10;
 
-#endif // HITPOINTS_H
+//Weapon damage that can be multiplied
+constexpr int leaf_blade = 5;
+constexpr int infernal_wand = 5;
+constexpr int aquatic_shield = 5;
+
+//damage
+constexpr int damage = 2;
+int damage_taken;
+
+void equipment();
