@@ -1,0 +1,1 @@
+*\n# Git ignore rules\n.DS_Store\n*.log\n*.tmp\nnode_modules/\n
