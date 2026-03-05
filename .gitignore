@@ -1,14 +1,51 @@
-# Created by .gitignore for Lab-Game-Project-Aidan-Alex
-# Ignore the following files
-.DS_Store
+*
+!.*
+!*/
+!*.*
+!.gitignore
+# after any ignore rules that might match headers
+!**/*.h
+!**/*.hpp
+
+
+# Prerequisites
+*.d     
+                                            
+# Compiled Object files
+*.slo
+*.lo
 *.o
+*.obj
+*.yml
+*.plist
+*.json
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
 *.out
-*.log
-*.class
-*.class
-*.jar
-*.dll
-*.so
-*.dSYM
-*.sublime-*
+*.app
+
+# Folders
+.vscode/
+temp/
+build/
+bin/
