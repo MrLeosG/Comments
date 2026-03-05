@@ -1,12 +1,19 @@
-#ifndef INVENTORY_H
-#define INVENTORY_H
+#include <iostream>
+#include <vector>
+#include "item.h"
 
 class Inventory {
-public:
-    void addItem(const std::string& item);
-    void removeItem(const std::string& item);
-private:
-    std::vector<std::string> items;
-};
+    private:
+        std::vector<Item> items;
 
-#endif // INVENTORY_H
+    public:
+    Inventory(int item_name);
+
+    bool add_item(const item_name& new_item) {
+        bool found = false;
+        for (auto& item_name : items)
+        {
+            return 0;
+        }
+    }
+};
